@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="contacto.css">
+    <script>
+        window.onload = function() {
+          document.getElementById("formulario").onsubmit = function(event) {
+            event.preventDefault(); 
+            alert("Mensaje enviado");
+            this.reset();
+          };
+        };
+      </script>
+</head>
+<body>
+    <div class="container-form">
+        <div class="info-form">
+            <h2>Contactanos</h2>
+            <p>¡Nos encantaría saber de ti! Si tienes alguna pregunta, comentario o simplemente quieres decir hola, no dudes en ponerte en contacto con nosotros. Puedes encontrarnos en nuestras redes sociales o enviarnos un correo electrónico. Estamos aquí para ayudarte en lo que necesites y esperamos poder atenderte pronto.</p>
+            <a href="#"> <i class="fa fa-phone"></i>+502 3489-2318</a>
+            <a href="#"> <i class="fa fa-envelope"></i>zoodrivechapin@gmail.com</a>
+            <a href="#"> <i class="fa fa-map-marked"></i>Estamos ubicados en Guatemala en el departamento de Jalapa hacia la carretera a Coliz a 20 minutos del centro de Jalapa</a>
+            <a href="#"> <i class="fa fa-instagram"></i>zoodrive_chapin502</a>
+            <a href="#"> <i class="fa fa-facebook"></i>ZooDriveChapin</a>
+            <a href="#"> <i class="fa fa-youtube"></i>ZooDriveChapin</a>
+
+        </div>
+        <form action="#" autocomplete="off">
+            <input type="text" name="Nombre" placeholder="Ingresa tu nombre" class="campo">
+            <input type="text" name="email" placeholder="Ingresa tu correo" class="campo">
+            <textarea name="Mensaje" placeholder="Ingresa un mensaje"></textarea>
+            <button type="submit" name="enviar" value="Enviar mensaje" class="btn-enviar">Enviar mensaje</button>
+
+        </form>
+        <a href="index.html"  class="boton-regresar">Regresar</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pago</title>
+    <link rel="stylesheet" href="Pago.css">
+    <script>
+        function confirmarReservacion() {
+          alert("¡Reservación exitosa!");
+        }
+      </script>
+
+</head>
+<div class="btnRegresar">
+<body>
+    <div class="container">
+        <h1>CONFIRME SU PAGO</h1>
+        <div class="first-row">
+            <div class="owner">
+                <h3>Nombre</h3>
+                <div class="input-field">
+                    <input type="text">
+                </div>
+            </div>
+            <div class="cvv">
+                <h3>CVV</h3>
+                <div class="input-field">
+                    <input type="Contraseña">
+                </div>
+            </div>
+        </div>
+        <div class="second-row">
+            <div class="card-number">
+                <h3>Número de tarjeta</h3>
+                <div class="input-field">
+                    <input type="text">
+                </div>
+            </div>
+        </div>
+        <div class="third-row">
+            <h3>Fecha</h3>
+            <div class="selection">
+                <div class="date">
+                    <select name="months" id="months">
+                        <option value="Enero">Enero</option>
+                        <option value="Febrero">Febrero</option>
+                        <option value="Marzo">Marzo</option>
+                        <option value="Abril">Abril</option>
+                        <option value="Mayo">Mayo</option>
+                        <option value="Junio">Junio</option>
+                        <option value="Julio">Julio</option>
+                        <option value="Agosto">Agosto</option>
+                        <option value="Septiembre">Septiembre</option>
+                        <option value="Octubre">Octubre</option>
+                        <option value="Noviembre">Noviembre</option>
+                        <option value="Diciembre">Diciembre</option>
+                    </select>
+                    <select name="años" id="años">
+                        <option value="2024">2024</option>
+                        <option value="2025">2025</option>
+                        <option value="2026">2026</option>
+                        <option value="2027">2027</option>
+                    </select>
+                </div>
+                <div class="cards">
+                    <img src="img/MasterCard_Logo.png" alt="">
+                    <img src="img/pp.png" alt="">
+                    <img src="img/visa.png" alt="">
+                </div>
+            </div>
+        </div>
+        <a href="#" onclick="confirmarReservacion()">Confirmar</a>
+        <a href="Reservacion.html" class="boton-regresar">Cancelar</a>
+    </div>
+</body>
+</html>

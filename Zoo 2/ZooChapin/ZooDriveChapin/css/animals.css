@@ -1,0 +1,44 @@
+body{
+    /* background-color: #fdf8efcc; */
+    background-image: url(../images/ecosystem.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+.containerG{
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 200px;
+}
+.container.sabana{
+    padding: 25px;
+}
+.container.aquatic{
+    padding: 25px;
+}
+.img{
+    width: 100%;
+    border-radius: 10px;
+}
+.img.alta{
+    max-height: 200px;
+    width: auto;
+    border-radius: 10px;
+}
+.animal.info{
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+}
+.animal.info:hover{
+    transform: scale(1.1);
+}
+li{
+    font-size: larger;
+    text-align: start;
+}
+.references ul{
+    list-style: none;
+    padding: 0;
+}

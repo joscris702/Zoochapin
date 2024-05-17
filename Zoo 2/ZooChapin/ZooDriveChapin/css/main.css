@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Pangolin', cursive;
+    font-size: 16px;
+    color: #333333;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Estilos generales de la barra de navegación */
+.nav-bar {
+    background-color: #8b4513df; /* Color dorado */
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999; /* Asegura que la barra de navegación esté por encima de otros elementos */
+}
+
+.nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nav-bar li a {
+    color: wheat;
+    text-decoration: none;
+    font-size: larger;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+    transition: background-color 0.5s ease;
+    text-shadow: 5px 3px 3px black;
+}
+
+.nav-bar li a:hover {
+    background-color: #E5AA3B;
+}
+  
+  /* Estilos específicos para el título principal */
+.bar-title{
+    color: #12651a ;
+    text-shadow: 5px 5px 5px black;
+    font-size: 80px;
+}
+.title{
+      /* color: #009A17; */
+      font-size:xx-large;
+      font-weight: bold;
+}
+/* Estilos específicos para el título secundario */
+.container.style {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #fdf8efcc;
+}
+
+.fullTree {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.container.gridtwo {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+}
+
+.text {
+    padding: 20px;
+    text-align: justify;
+    font-size: large;
+}
+
+.container-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-image img {
+    width: 100%;
+
+}
+
+.gridtree {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.text img {
+    width: 100%;
+    transition: transform 0.5s ease;
+}
+
+.text img:hover {
+    transform: scale(1.1);
+}
+
+.animal {
+    border-radius: 10px;
+    transition: background-color 0.5s ease;
+}
+
+.animal:hover {
+    background-color: #e5aa3bd6;
+}

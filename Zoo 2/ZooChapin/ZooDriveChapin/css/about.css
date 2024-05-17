@@ -1,0 +1,39 @@
+body{
+    background-image: none;
+    background-color: #bf8f6cdf;
+}
+.donate {
+    background-color: #d5bcb1;
+    border-radius: 10px;
+    transition: background-color 0.5s ease;
+}
+
+.donate:hover {
+    background-color: #ffca68d6;
+}
+footer{
+    /* background-color: #bf8f6cdf; */
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 12px;
+}
+.footer-center{
+    margin: 0 auto;
+    width: 100%;
+}
+.footer-center li{
+    display: inline-block;
+    margin: 0 10px;
+}
+span.footer-title{
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.logo{
+    width: 1.5rem;
+    text-align: center;
+    /* margin-bottom: 0px; */
+    margin: 2px 2px 0px 2px;
+}
